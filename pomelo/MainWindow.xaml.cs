@@ -79,7 +79,7 @@ namespace bdpomela
                 view.Text = "";
                 foreach (User u in users)
                 {
-                    view.Text += $"{u.Id}.{u.Name} - {u.Age}\n";                  
+                    view.Text += $"{u.Id}.{u.Name} - {u.Age}\n";
                 }
             }
         }
